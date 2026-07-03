@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "TsCprNXjQhmMVemVyiAzKyy3IGXXZ+ba4HGpo03NoWc=",
+  "Source": "CompressionServer",
+  "BasePath": "_content/CompressionServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

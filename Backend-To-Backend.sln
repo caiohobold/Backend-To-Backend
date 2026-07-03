@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{178EA1EE-C52F-4114-8B76-7FA35FB3A06D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompressionWorker", "src\CompressionWorker\CompressionWorker.csproj", "{0727F4F1-1782-4324-A35D-78CDE366DE84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompressionServer", "src\CompressionServer\CompressionServer.csproj", "{CA23C284-D8A6-452B-A5CD-7B4ABF6BC0C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompressionClient", "src\CompressionClient\CompressionClient.csproj", "{9069B83E-79F8-4608-959C-C8354F09C60B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0727F4F1-1782-4324-A35D-78CDE366DE84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0727F4F1-1782-4324-A35D-78CDE366DE84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0727F4F1-1782-4324-A35D-78CDE366DE84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0727F4F1-1782-4324-A35D-78CDE366DE84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA23C284-D8A6-452B-A5CD-7B4ABF6BC0C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA23C284-D8A6-452B-A5CD-7B4ABF6BC0C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA23C284-D8A6-452B-A5CD-7B4ABF6BC0C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA23C284-D8A6-452B-A5CD-7B4ABF6BC0C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9069B83E-79F8-4608-959C-C8354F09C60B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9069B83E-79F8-4608-959C-C8354F09C60B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9069B83E-79F8-4608-959C-C8354F09C60B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9069B83E-79F8-4608-959C-C8354F09C60B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0727F4F1-1782-4324-A35D-78CDE366DE84} = {178EA1EE-C52F-4114-8B76-7FA35FB3A06D}
+		{CA23C284-D8A6-452B-A5CD-7B4ABF6BC0C8} = {178EA1EE-C52F-4114-8B76-7FA35FB3A06D}
+		{9069B83E-79F8-4608-959C-C8354F09C60B} = {178EA1EE-C52F-4114-8B76-7FA35FB3A06D}
+	EndGlobalSection
+EndGlobal

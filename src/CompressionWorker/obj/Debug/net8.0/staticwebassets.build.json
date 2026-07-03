@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "BU4yaJRwNyvpRcMla+xiHy2sOAM0hIXgP/DrrT6EJ8Y=",
+  "Source": "CompressionWorker",
+  "BasePath": "_content/CompressionWorker",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

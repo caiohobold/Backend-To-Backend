@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "6HB0J3hbJbA=",
+  "success": true,
+  "projectFilePath": "/Users/caiohobold/Desenvolvimento/Backend-To-Backend/src/CompressionClient/CompressionClient.csproj",
+  "expectedPackageFiles": [
+    "/Users/caiohobold/.nuget/packages/google.protobuf/3.26.1/google.protobuf.3.26.1.nupkg.sha512",
+    "/Users/caiohobold/.nuget/packages/grpc.core.api/2.62.0/grpc.core.api.2.62.0.nupkg.sha512",
+    "/Users/caiohobold/.nuget/packages/grpc.net.client/2.62.0/grpc.net.client.2.62.0.nupkg.sha512",
+    "/Users/caiohobold/.nuget/packages/grpc.net.common/2.62.0/grpc.net.common.2.62.0.nupkg.sha512",
+    "/Users/caiohobold/.nuget/packages/grpc.tools/2.62.0/grpc.tools.2.62.0.nupkg.sha512",
+    "/Users/caiohobold/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.0/microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

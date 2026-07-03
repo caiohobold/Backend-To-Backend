@@ -1,0 +1,23 @@
+// Contrato gRPC do worker: recebe um pedaço de bytes e devolve ele comprimido.
+
+syntax = "proto3";
+
+option csharp_namespace = "Worker";
+
+package worker;
+
+service WorkerService {
+    rpc CompressChunk (ChunkRequest) returns (ChunkResponse);
+}
+
+message ChunkRequest {
+    bytes data        = 1;
+    int32 chunk_index = 2;
+}
+
+message ChunkResponse {
+    bytes compressed_data = 1;
+    int32 chunk_index     = 2;
+    int64 original_size   = 3;
+    int64 compressed_size = 4;
+}

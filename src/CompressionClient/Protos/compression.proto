@@ -1,0 +1,26 @@
+// Contrato gRPC da comunicação principal: Cliente -> Servidor.
+
+syntax = "proto3";
+
+option csharp_namespace = "Compression";
+
+package compression;
+
+// Client streaming: o cliente envia vários pedaços do arquivo antes de
+// receber uma única resposta final.
+service CompressionService {
+    rpc CompressFile (stream UploadRequest) returns (CompressResponse);
+}
+
+message UploadRequest {
+    bytes chunk = 1;
+}
+
+message CompressResponse {
+    bytes  compressed_data     = 1;
+    int64  original_size       = 2;
+    int64  compressed_size     = 3;
+    double compression_ratio   = 4;
+    int32  workers_used        = 5;
+    double elapsed_milliseconds = 6;
+}
